@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  h1{
+    color: rgb(17, 144, 1);
+    font-size: 40px;
+    
+}
+  form {
+    width: 60%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(208, 241, 209);
+
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"] {
+    width: 600px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid rgb(204, 204, 204);
+  }
+  
+  input[type="checkbox"] {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    height: 40px;
+    background-color: rgb(76, 175, 80);
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(62, 142, 65);
+  }
+  
+  #password {
+    width: 600px;
+    height: 40px;
+    margin: 20px 0px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 24px;
+    font-weight: bold;
+  }
